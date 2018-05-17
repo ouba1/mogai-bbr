@@ -14,44 +14,44 @@ sudo apt-get -y install g++-4.9
 
 - Debian9需要提前：
 ```
-wget --no-check-certificate -O libssl.deb https://raw.githubusercontent.com/xratzh/CBBR/master/debkernel/libssl1.0.0_1.0.2-1_amd64.deb
+wget --no-check-certificate -O libssl.deb https://raw.githubusercontent.com/ouba1/mogai-bbr/master/debkernel/libssl1.0.0_1.0.2-1_amd64.deb
 dpkg -i libssl.deb
 ```
 **第一步：**
 ```
-apt-get install -y wget && wget --no-check-certificate -O D1.sh https://raw.githubusercontent.com/xratzh/CBBR/master/D1.sh && bash D1.sh
+apt-get install -y wget && wget --no-check-certificate -O D1.sh https://raw.githubusercontent.com/ouba1/mogai-bbr/master/D1.sh && bash D1.sh
 ```
 之后输入Y就会重启
 
 **第二步：**
 ```
-wget --no-check-certificate -O D2.sh https://raw.githubusercontent.com/xratzh/CBBR/master/D2.sh && bash D2.sh
+wget --no-check-certificate -O D2.sh https://raw.githubusercontent.com/ouba1/mogai-bbr/master/D2.sh && bash D2.sh
 ```
 
 ---
 ### CentOS7开启魔改BBR
 **第一步：**
 ```
-yum install -y wget && wget --no-check-certificate -O C71.sh https://raw.githubusercontent.com/xratzh/CBBR/master/C71.sh && bash C71.sh
+yum install -y wget && wget --no-check-certificate -O C71.sh https://raw.githubusercontent.com/ouba1/mogai-bbr/master/C71.sh && bash C71.sh
 ```
 之后输入Y就会重启
 
 **第二步：**
 ```
-wget --no-check-certificate -O C72.sh https://raw.githubusercontent.com/xratzh/CBBR/master/C72.sh && bash C72.sh
+wget --no-check-certificate -O C72.sh https://raw.githubusercontent.com/ouba1/mogai-bbr/master/C72.sh && bash C72.sh
 ```
 
 ---
 ### CentOS6开启魔改BBR
 **第一步：**
 ```
-yum install -y wget && wget --no-check-certificate -O C61.sh https://raw.githubusercontent.com/xratzh/CBBR/master/C61.sh && bash C61.sh
+yum install -y wget && wget --no-check-certificate -O C61.sh https://raw.githubusercontent.com/ouba1/mogai-bbr/master/C61.sh && bash C61.sh
 ```
 之后输入Y就会重启
 
 **第二步：**
 ```
-wget --no-check-certificate -O C62.sh https://raw.githubusercontent.com/xratzh/CBBR/master/C62.sh && bash C62.sh
+wget --no-check-certificate -O C62.sh https://raw.githubusercontent.com/ouba1/mogai-bbr/master/C62.sh && bash C62.sh
 ```
 
 ### Tips
